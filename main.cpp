@@ -1,4 +1,4 @@
-#include "../bits/stdc++.h"
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -96,7 +96,6 @@ int main()
 
     for (int i = 0; i < arr_count; i++) {
         int arr_item = stoi(arr_temp[i]);
-
         arr[i] = arr_item;
     }
 
